@@ -1,0 +1,12 @@
+@"
+.venv/
+.venv312/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.chroma/
+chroma_db/
+fastembed_cache/
+"@ | Out-File -Encoding utf8 .gitignore
